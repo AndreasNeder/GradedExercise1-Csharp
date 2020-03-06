@@ -109,9 +109,6 @@ namespace graded_exercise_1
             data = new List<Person>() {
                 new Person(1,"Benny",56,100),
                 new Person(2,"Heinz",56,200),
-                new Person(3,"Frank",57,132),
-                new Person(4,"Torben",66,134),
-                new Person(5,"Brian",70,155),
             };
 
             listBox.ItemsSource = data;
